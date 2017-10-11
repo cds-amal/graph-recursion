@@ -49,7 +49,7 @@ function fib(n, parent, elements) {
   return fib(n - 1, targ, elements) + fib(n - 2, targ, elements)
 }
 
-let N = 6
+let N = 10
 let root = makeVertex(N, `Fib(${N})`)
 ,   elements = []
 ,   f = fib(N, root, elements)
