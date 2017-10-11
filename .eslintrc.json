@@ -1,0 +1,6 @@
+{
+  "extends": "fullstack",
+  "rules": {
+    "id-length": ["error", {"min": 1}]
+  }
+}
