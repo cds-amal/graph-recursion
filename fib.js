@@ -1,62 +1,34 @@
 /* eslint no-unused-vars: 0 */  // --> OFF
-const fs = require('fs');
-const path = require('path')
+const {
+  makeVertex,
+  saveNodes,
+  order,
+  connect
+ } = require('./lib/util')
 
-const makeCounter = () => ({
-  id: 1,
-  next() { return this.id++ }
-})
+const fibLabel = n => `Fib(${n})`
+const fibId = n => `${n}-${order.next()}`
 
-const count = makeCounter()
-const order = makeCounter()
-
-const makeVertex = (id, label) => ({
-  order: order.next(),
-  data: { id, label },
-})
-
-const makeEdge = (source, target) => ({
-  order: order.next() + 1000,
-  data: {
-    id: '' + count.next(),
-    source: source.data.id,
-    target: target.data.id
-  }
-})
 
 function fib(n, parent, elements) {
-  let v, targ, edge
+  let targ
   if (n < 2){
-    v = `${n}-${count.next()}`
-    let lastFib = makeVertex(v, `Fib(${n})`)
-    edge = makeEdge(parent, lastFib)
-    elements.push(lastFib)
-    elements.push(edge)
+    let lastFib = makeVertex(fibId(n), fibLabel(n), elements)
+    connect(parent, lastFib, elements)
 
-    v = `${n}-${count.next()}`
-    targ = makeVertex(v, n)
-    edge = makeEdge(lastFib, targ)
-    elements.push(targ)
-    elements.push(edge)
+    targ = makeVertex(fibId(n), n, elements)
+    connect(lastFib, targ, elements)
     return n
   }
 
-  v = `${n}-${count.next()}`
-  targ = makeVertex(v, `Fib(${n})`)
-  edge = makeEdge(parent, targ)
-  elements.push(targ)
-  elements.push(edge)
+  targ = makeVertex(fibId(n), fibLabel(n), elements)
+  if (parent) connect(parent, targ, elements)
+
   return fib(n - 1, targ, elements) + fib(n - 2, targ, elements)
 }
 
-let N = 10
-let root = makeVertex(N, `Fib(${N})`)
+let N = 4
 ,   elements = []
-,   f = fib(N, root, elements)
+,   f = fib(N, null, elements)
+saveNodes(elements, __dirname, 'src', 'fib-data.js')
 
-elements.sort((a, b) => a.order - b.order)
-elements = elements.map(e => ({data: e.data}))
-
-let dest = path.join(__dirname, 'src', 'fib-data.js')
-let json = `${JSON.stringify(elements, undefined, 2)}`
-fs.writeFileSync(dest, 'export default `' + json + '`\n' )

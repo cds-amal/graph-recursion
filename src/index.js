@@ -3,10 +3,9 @@
 import cytoscape from 'cytoscape'
 import dagre from 'cytoscape-dagre';
 
-import eleData from './fib-data'
-// import eleData from './permute-data'
+// import eleData from './fib-data'
+import eleData from './permute-data'
 const elements = JSON.parse(eleData)
-console.log(elements)
 
 cytoscape.use( dagre );
 
