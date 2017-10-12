@@ -7,6 +7,10 @@ simple recursive algorithms. Fibonacci, permute and partition.
 ### Permutation of string 'abc'
 ![Permutation of string "ABC"](./docs/permute-abc.png "Permute('abc')")
 
+### Combination of string 'abcd'
+![Combinations of string "ABCD"](./docs/combination-abcd.png "Combination('abcd')")
+
+
 ### Fibonacci 
 ![Fibonacci ()](./docs/fib-6.png "Fib(6)")
 

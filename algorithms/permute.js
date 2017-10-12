@@ -5,7 +5,7 @@ const {
   saveNodes,
   order,
   connect
- } = require('./lib/util')
+ } = require('../lib/util')
 
  const label = (pre, suf) => `${pre}:${suf}`
 
@@ -47,7 +47,7 @@ function permute(str) {
   ,   elements = []
   _permute('', str, result, elements, null)
 
-  saveNodes(elements, __dirname, 'src', 'permute-data.js')
+  saveNodes(elements, __dirname, '..', 'src', 'permute-data.js')
   return result
 }
 

@@ -5,7 +5,8 @@ import dagre from 'cytoscape-dagre';
 
 // import eleData from './fib-data'
 // import eleData from './permute-data'
-import eleData from './partition-data'
+// import eleData from './partition-data'
+import eleData from './combination-data'
 const elements = JSON.parse(eleData)
 
 cytoscape.use( dagre );

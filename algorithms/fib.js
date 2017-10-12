@@ -4,7 +4,7 @@ const {
   saveNodes,
   order,
   connect
- } = require('./lib/util')
+ } = require('../lib/util')
 
 const fibLabel = n => `Fib(${n})`
 const fibId = n => `${n}-${order.next()}`
@@ -30,5 +30,5 @@ function fib(n, parent, elements) {
 let N = 4
 ,   elements = []
 ,   f = fib(N, null, elements)
-saveNodes(elements, __dirname, 'src', 'fib-data.js')
+saveNodes(elements, __dirname, '..', 'src', 'fib-data.js')
 

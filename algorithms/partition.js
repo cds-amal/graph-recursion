@@ -4,7 +4,7 @@ const {
   saveNodes,
   order,
   connect
- } = require('./lib/util')
+ } = require('../lib/util')
 
  const makeLabel = (N, target) => `Part(${N}, ${target})`
  const makeId = () => `${order.next()}`
@@ -27,5 +27,5 @@ for (let i = Math.min(N, target); i > 0; i--) {
 
 const elements = []
 partition(5, 5, [], null, elements)
-saveNodes(elements, __dirname, 'src', 'partition-data.js')
+saveNodes(elements, __dirname, '..', 'src', 'partition-data.js')
 
