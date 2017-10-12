@@ -4,7 +4,8 @@ import cytoscape from 'cytoscape'
 import dagre from 'cytoscape-dagre';
 
 // import eleData from './fib-data'
-import eleData from './permute-data'
+// import eleData from './permute-data'
+import eleData from './partition-data'
 const elements = JSON.parse(eleData)
 
 cytoscape.use( dagre );
@@ -42,7 +43,10 @@ const cy = cytoscape({
       selector: 'node',
       style: {
         'background-color': '#666',
-        label: 'data(label)'
+        label: 'data(label)',
+        'text-opacity': 0.5,
+        'text-valign': 'top',
+        'text-halign': 'center',
       }
     },
 
@@ -52,7 +56,7 @@ const cy = cytoscape({
         width: 3,
         'line-color': '#ccc',
         'target-arrow-color': '#ccc',
-        'target-arrow-shape': 'triangle'
+        'target-arrow-shape': 'triangle-backcurve'
       }
     }
   ],
