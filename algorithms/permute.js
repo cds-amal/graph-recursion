@@ -16,7 +16,9 @@ function _permute(pre, suf, result, elements, parent) {
 
   if (!suf) {
     let solution = makeVertex(pre, pre, elements)
-    connect(targ, solution, elements)
+    ,   edge     = connect(targ, solution, elements)
+    solution.data.bg = 'powderblue'
+    edge.data.lineStyle = 'dotted'
     result.push(pre)
     return
   }
@@ -47,13 +49,14 @@ function permute(str) {
   ,   elements = []
   _permute('', str, result, elements, null)
 
-  saveNodes(elements, __dirname, '..', 'src', 'permute-data.js')
+  saveNodes(elements, __dirname, '..', 'src', 'data', 'permute.js')
   return result
 }
 
 let ps = permute('abc')
-,   num
-for (let i = 0; i < ps.length; i++) {
-  num = ('00000' + (i + 1)).slice(-5)
-  console.log(`${num}: ${ps[i]}`)
-}
+
+// ,   num
+// for (let i = 0; i < ps.length; i++) {
+//   num = ('00000' + (i + 1)).slice(-5)
+//   console.log(`${num}: ${ps[i]}`)
+// }

@@ -26,7 +26,9 @@ export default `[
   {
     "data": {
       "id": "1-15",
-      "label": 1
+      "label": "1",
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -38,7 +40,9 @@ export default `[
   {
     "data": {
       "id": "0-23",
-      "label": 0
+      "label": "0",
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -50,7 +54,9 @@ export default `[
   {
     "data": {
       "id": "1-31",
-      "label": 1
+      "label": "1",
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -68,7 +74,9 @@ export default `[
   {
     "data": {
       "id": "1-43",
-      "label": 1
+      "label": "1",
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -80,7 +88,9 @@ export default `[
   {
     "data": {
       "id": "0-51",
-      "label": 0
+      "label": "0",
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -108,7 +118,8 @@ export default `[
     "data": {
       "id": "18",
       "source": "1-11",
-      "target": "1-15"
+      "target": "1-15",
+      "lineStyle": "dotted"
     }
   },
   {
@@ -122,7 +133,8 @@ export default `[
     "data": {
       "id": "26",
       "source": "0-19",
-      "target": "0-23"
+      "target": "0-23",
+      "lineStyle": "dotted"
     }
   },
   {
@@ -136,7 +148,8 @@ export default `[
     "data": {
       "id": "34",
       "source": "1-27",
-      "target": "1-31"
+      "target": "1-31",
+      "lineStyle": "dotted"
     }
   },
   {
@@ -157,7 +170,8 @@ export default `[
     "data": {
       "id": "46",
       "source": "1-39",
-      "target": "1-43"
+      "target": "1-43",
+      "lineStyle": "dotted"
     }
   },
   {
@@ -171,7 +185,8 @@ export default `[
     "data": {
       "id": "54",
       "source": "0-47",
-      "target": "0-51"
+      "target": "0-51",
+      "lineStyle": "dotted"
     }
   }
 ]`

@@ -5,7 +5,8 @@
   "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack; zsh ./optimizePng.zsh",
+    "algos": "zsh ./algorithms/make.zsh"
   },
   "keywords": [],
   "author": "",

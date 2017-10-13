@@ -13,19 +13,21 @@ function partition(N, target = N, set = [], parent = null, elements = []) {
   let targ = makeVertex(makeId(), makeLabel(N, target), elements)
   if (parent) connect(parent, targ, elements)
   if (!N) {
+    let solution = makeVertex(makeId(), set.join(','), elements)
+    ,   edge     = connect(targ, solution, elements)
 
-    let last = makeVertex(makeId(), set.join(','), elements)
-    connect(targ, last, elements)
-    console.log(set)
+    solution.data.bg = 'powderblue'
+    edge.data.lineStyle = 'dotted'
+    // console.log(set)
     return
   }
 
-for (let i = Math.min(N, target); i > 0; i--) {
-    partition(N - i, i, set.concat(i), targ, elements)
+  for (let i = Math.min(N, target); i > 0; i--) {
+      partition(N - i, i, set.concat(i), targ, elements)
   }
 }
 
 const elements = []
-partition(5, 5, [], null, elements)
-saveNodes(elements, __dirname, '..', 'src', 'partition-data.js')
-
+,     N = 9
+partition(N, N, [], null, elements)
+saveNodes(elements, __dirname, '..', 'src', 'data', 'partition.js')

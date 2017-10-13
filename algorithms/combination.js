@@ -15,8 +15,12 @@ function _combination(pre, suf, elements, parent = null) {
 
   if (!suf) {
     let solution = makeVertex(pre, pre, elements)
-    connect(targ, solution, elements)
-    console.log(pre)
+    ,   edge     = connect(targ, solution, elements)
+    solution.data.bg = 'powderblue'
+    solution.data.textValign = 'center'
+    edge.data.lineStyle = 'dotted'
+
+    // console.log(pre)
     return
   }
 
@@ -30,7 +34,7 @@ function _combination(pre, suf, elements, parent = null) {
 function combination(str) {
   const elements = []
   _combination('', str, elements)
-  saveNodes(elements, __dirname, '..', 'src', 'combination-data.js')
+  saveNodes(elements, __dirname, '..', 'src', 'data', 'combination.js')
 }
 
 combination('abcd')

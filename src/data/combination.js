@@ -32,7 +32,9 @@ export default `[
   {
     "data": {
       "id": "abcd",
-      "label": "abcd"
+      "label": "abcd",
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -44,7 +46,9 @@ export default `[
   {
     "data": {
       "id": "abc",
-      "label": "abc"
+      "label": "abc",
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -62,7 +66,9 @@ export default `[
   {
     "data": {
       "id": "abd",
-      "label": "abd"
+      "label": "abd",
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -74,7 +80,9 @@ export default `[
   {
     "data": {
       "id": "ab",
-      "label": "ab"
+      "label": "ab",
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -98,7 +106,9 @@ export default `[
   {
     "data": {
       "id": "acd",
-      "label": "acd"
+      "label": "acd",
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -110,7 +120,9 @@ export default `[
   {
     "data": {
       "id": "ac",
-      "label": "ac"
+      "label": "ac",
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -128,7 +140,9 @@ export default `[
   {
     "data": {
       "id": "ad",
-      "label": "ad"
+      "label": "ad",
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -140,7 +154,9 @@ export default `[
   {
     "data": {
       "id": "a",
-      "label": "a"
+      "label": "a",
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -170,7 +186,9 @@ export default `[
   {
     "data": {
       "id": "bcd",
-      "label": "bcd"
+      "label": "bcd",
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -182,7 +200,9 @@ export default `[
   {
     "data": {
       "id": "bc",
-      "label": "bc"
+      "label": "bc",
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -200,7 +220,9 @@ export default `[
   {
     "data": {
       "id": "bd",
-      "label": "bd"
+      "label": "bd",
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -212,7 +234,9 @@ export default `[
   {
     "data": {
       "id": "b",
-      "label": "b"
+      "label": "b",
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -236,7 +260,9 @@ export default `[
   {
     "data": {
       "id": "cd",
-      "label": "cd"
+      "label": "cd",
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -248,7 +274,9 @@ export default `[
   {
     "data": {
       "id": "c",
-      "label": "c"
+      "label": "c",
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -266,7 +294,9 @@ export default `[
   {
     "data": {
       "id": "d",
-      "label": "d"
+      "label": "d",
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -278,7 +308,9 @@ export default `[
   {
     "data": {
       "id": "",
-      "label": ""
+      "label": "",
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -313,7 +345,8 @@ export default `[
     "data": {
       "id": "16",
       "source": "abcd:",
-      "target": "abcd"
+      "target": "abcd",
+      "lineStyle": "dotted"
     }
   },
   {
@@ -327,7 +360,8 @@ export default `[
     "data": {
       "id": "22",
       "source": "abc:",
-      "target": "abc"
+      "target": "abc",
+      "lineStyle": "dotted"
     }
   },
   {
@@ -348,7 +382,8 @@ export default `[
     "data": {
       "id": "31",
       "source": "abd:",
-      "target": "abd"
+      "target": "abd",
+      "lineStyle": "dotted"
     }
   },
   {
@@ -362,7 +397,8 @@ export default `[
     "data": {
       "id": "37",
       "source": "ab:",
-      "target": "ab"
+      "target": "ab",
+      "lineStyle": "dotted"
     }
   },
   {
@@ -390,7 +426,8 @@ export default `[
     "data": {
       "id": "49",
       "source": "acd:",
-      "target": "acd"
+      "target": "acd",
+      "lineStyle": "dotted"
     }
   },
   {
@@ -404,7 +441,8 @@ export default `[
     "data": {
       "id": "55",
       "source": "ac:",
-      "target": "ac"
+      "target": "ac",
+      "lineStyle": "dotted"
     }
   },
   {
@@ -425,7 +463,8 @@ export default `[
     "data": {
       "id": "64",
       "source": "ad:",
-      "target": "ad"
+      "target": "ad",
+      "lineStyle": "dotted"
     }
   },
   {
@@ -439,7 +478,8 @@ export default `[
     "data": {
       "id": "70",
       "source": "a:",
-      "target": "a"
+      "target": "a",
+      "lineStyle": "dotted"
     }
   },
   {
@@ -474,7 +514,8 @@ export default `[
     "data": {
       "id": "85",
       "source": "bcd:",
-      "target": "bcd"
+      "target": "bcd",
+      "lineStyle": "dotted"
     }
   },
   {
@@ -488,7 +529,8 @@ export default `[
     "data": {
       "id": "91",
       "source": "bc:",
-      "target": "bc"
+      "target": "bc",
+      "lineStyle": "dotted"
     }
   },
   {
@@ -509,7 +551,8 @@ export default `[
     "data": {
       "id": "100",
       "source": "bd:",
-      "target": "bd"
+      "target": "bd",
+      "lineStyle": "dotted"
     }
   },
   {
@@ -523,7 +566,8 @@ export default `[
     "data": {
       "id": "106",
       "source": "b:",
-      "target": "b"
+      "target": "b",
+      "lineStyle": "dotted"
     }
   },
   {
@@ -551,7 +595,8 @@ export default `[
     "data": {
       "id": "118",
       "source": "cd:",
-      "target": "cd"
+      "target": "cd",
+      "lineStyle": "dotted"
     }
   },
   {
@@ -565,7 +610,8 @@ export default `[
     "data": {
       "id": "124",
       "source": "c:",
-      "target": "c"
+      "target": "c",
+      "lineStyle": "dotted"
     }
   },
   {
@@ -586,7 +632,8 @@ export default `[
     "data": {
       "id": "133",
       "source": "d:",
-      "target": "d"
+      "target": "d",
+      "lineStyle": "dotted"
     }
   },
   {
@@ -600,7 +647,8 @@ export default `[
     "data": {
       "id": "139",
       "source": ":",
-      "target": ""
+      "target": "",
+      "lineStyle": "dotted"
     }
   }
 ]`

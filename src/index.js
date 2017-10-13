@@ -6,8 +6,16 @@ import dagre from 'cytoscape-dagre';
 // import eleData from './fib-data'
 // import eleData from './permute-data'
 // import eleData from './partition-data'
-import eleData from './combination-data'
-const elements = JSON.parse(eleData)
+// import eleData from './combination-data'
+
+import data from './data'
+const elements = JSON.parse(data.partition)
+
+// const keys = Object.keys(data)
+// let elements = []
+// for (let k of keys) {
+//   elements = elements.concat(JSON.parse(data[k]))
+// }
 
 cytoscape.use( dagre );
 
@@ -36,17 +44,17 @@ var layoutDefaults = {
   stop: function(){} // on layoutstop
 };
 
-const cy = cytoscape({
+var cy = cytoscape({
   container: document.getElementById('cy'),
   elements,
   style: [ // the stylesheet for the graph
     {
       selector: 'node',
       style: {
-        'background-color': '#666',
-        label: 'data(label)',
+        'background-color': ele => ele.data('bg') || '#999',
+        label: ele =>  ele.data('label') || '-',
         'text-opacity': 0.5,
-        'text-valign': 'top',
+        'text-valign': ele => ele.data('textValign') || 'top',
         'text-halign': 'center',
       }
     },
@@ -54,10 +62,12 @@ const cy = cytoscape({
     {
       selector: 'edge',
       style: {
-        width: 3,
-        'line-color': '#ccc',
-        'target-arrow-color': '#ccc',
-        'target-arrow-shape': 'triangle-backcurve'
+        width: 4,
+        'line-style': ele => ele.data('lineStyle') || 'solid',
+        'target-arrow-shape': 'triangle',
+        'line-color': '#9dbaea',
+        'target-arrow-color': '#9dbaea',
+        'curve-style': 'bezier'
       }
     }
   ],

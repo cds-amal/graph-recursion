@@ -44,7 +44,8 @@ export default `[
   {
     "data": {
       "id": "abc",
-      "label": "abc"
+      "label": "abc",
+      "bg": "powderblue"
     }
   },
   {
@@ -74,7 +75,8 @@ export default `[
   {
     "data": {
       "id": "acb",
-      "label": "acb"
+      "label": "acb",
+      "bg": "powderblue"
     }
   },
   {
@@ -116,7 +118,8 @@ export default `[
   {
     "data": {
       "id": "bac",
-      "label": "bac"
+      "label": "bac",
+      "bg": "powderblue"
     }
   },
   {
@@ -146,7 +149,8 @@ export default `[
   {
     "data": {
       "id": "bca",
-      "label": "bca"
+      "label": "bca",
+      "bg": "powderblue"
     }
   },
   {
@@ -188,7 +192,8 @@ export default `[
   {
     "data": {
       "id": "cab",
-      "label": "cab"
+      "label": "cab",
+      "bg": "powderblue"
     }
   },
   {
@@ -218,7 +223,8 @@ export default `[
   {
     "data": {
       "id": "cba",
-      "label": "cba"
+      "label": "cba",
+      "bg": "powderblue"
     }
   },
   {
@@ -246,7 +252,8 @@ export default `[
     "data": {
       "id": "16",
       "source": "abc:",
-      "target": "abc"
+      "target": "abc",
+      "lineStyle": "dotted"
     }
   },
   {
@@ -267,7 +274,8 @@ export default `[
     "data": {
       "id": "27",
       "source": "acb:",
-      "target": "acb"
+      "target": "acb",
+      "lineStyle": "dotted"
     }
   },
   {
@@ -295,7 +303,8 @@ export default `[
     "data": {
       "id": "42",
       "source": "bac:",
-      "target": "bac"
+      "target": "bac",
+      "lineStyle": "dotted"
     }
   },
   {
@@ -316,7 +325,8 @@ export default `[
     "data": {
       "id": "53",
       "source": "bca:",
-      "target": "bca"
+      "target": "bca",
+      "lineStyle": "dotted"
     }
   },
   {
@@ -344,7 +354,8 @@ export default `[
     "data": {
       "id": "68",
       "source": "cab:",
-      "target": "cab"
+      "target": "cab",
+      "lineStyle": "dotted"
     }
   },
   {
@@ -365,7 +376,8 @@ export default `[
     "data": {
       "id": "79",
       "source": "cba:",
-      "target": "cba"
+      "target": "cba",
+      "lineStyle": "dotted"
     }
   }
 ]`

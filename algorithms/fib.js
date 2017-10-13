@@ -16,8 +16,13 @@ function fib(n, parent, elements) {
     let lastFib = makeVertex(fibId(n), fibLabel(n), elements)
     connect(parent, lastFib, elements)
 
-    targ = makeVertex(fibId(n), n, elements)
-    connect(lastFib, targ, elements)
+    let solution = makeVertex(fibId(n), '' + n, elements)
+    ,   edge     = connect(lastFib, solution, elements)
+
+    solution.data.bg = 'powderblue'
+    solution.data.textValign = 'center'
+    edge.data.lineStyle = 'dotted'
+
     return n
   }
 
@@ -30,5 +35,5 @@ function fib(n, parent, elements) {
 let N = 4
 ,   elements = []
 ,   f = fib(N, null, elements)
-saveNodes(elements, __dirname, '..', 'src', 'fib-data.js')
+saveNodes(elements, __dirname, '..', 'src', 'data', 'fib.js')
 
