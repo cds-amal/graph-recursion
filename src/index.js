@@ -3,19 +3,8 @@
 import cytoscape from 'cytoscape'
 import dagre from 'cytoscape-dagre';
 
-// import eleData from './fib-data'
-// import eleData from './permute-data'
-// import eleData from './partition-data'
-// import eleData from './combination-data'
-
 import data from './data'
-const elements = JSON.parse(data.partition)
-
-// const keys = Object.keys(data)
-// let elements = []
-// for (let k of keys) {
-//   elements = elements.concat(JSON.parse(data[k]))
-// }
+const elements = JSON.parse(data[process.env.GRAPH])
 
 cytoscape.use( dagre );
 
@@ -78,8 +67,12 @@ var cy = cytoscape({
   }
 });
 
+const sucker = process.env.GRAPH;
 cy.ready(event => {
   console.log('ready event called!')
+  console.log(sucker)
+  console.log('process.env', process.env)
+
   var png64 = cy.png({scale: 5});
   $('#export').attr('src', png64);
 })

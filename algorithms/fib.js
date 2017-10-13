@@ -35,5 +35,5 @@ function fib(n, parent, elements) {
 let N = 4
 ,   elements = []
 ,   f = fib(N, null, elements)
-saveNodes(elements, __dirname, '..', 'src', 'data', 'fib.js')
+saveNodes(elements, __dirname, '..', 'src', 'data', 'fibonacci.js')
 

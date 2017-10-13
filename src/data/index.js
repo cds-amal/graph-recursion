@@ -1,11 +1,11 @@
 import combination from './combination'
-import fib from './fib'
+import fibonacci from './fibonacci'
 import partition from './partition'
 import permute from './permute'
 
 export default {
   combination,
-  fib,
+  fibonacci,
   partition,
   permute
 }

@@ -5,8 +5,8 @@
   "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack; zsh ./optimizePng.zsh",
-    "algos": "zsh ./algorithms/make.zsh"
+    "build": "./build.zsh ./optimizePng.zsh",
+    "algos": "./algorithms/make.zsh"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,7 @@
     "jquery": "^3.2.1"
   },
   "devDependencies": {
+    "html-webpack-plugin": "^2.30.1",
     "webpack": "^3.6.0"
   }
 }

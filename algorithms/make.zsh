@@ -1,4 +1,4 @@
-#!env zsh
+#! /usr/bin/env zsh
 echo "generating algorithm data"
 
 # how modifiers work
