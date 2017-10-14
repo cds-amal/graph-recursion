@@ -18,6 +18,7 @@ function _permute(pre, suf, result, elements, parent) {
     let solution = makeVertex(pre, pre, elements)
     ,   edge     = connect(targ, solution, elements)
     solution.data.bg = 'powderblue'
+    solution.data.textValign = 'center'
     edge.data.lineStyle = 'dotted'
     result.push(pre)
     return

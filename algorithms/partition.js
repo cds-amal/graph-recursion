@@ -17,6 +17,7 @@ function partition(N, target = N, set = [], parent = null, elements = []) {
     ,   edge     = connect(targ, solution, elements)
 
     solution.data.bg = 'powderblue'
+    solution.data.textValign = 'center'
     edge.data.lineStyle = 'dotted'
     // console.log(set)
     return

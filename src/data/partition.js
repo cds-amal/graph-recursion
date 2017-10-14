@@ -15,7 +15,8 @@ export default `[
     "data": {
       "id": "7",
       "label": "9",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -34,7 +35,8 @@ export default `[
     "data": {
       "id": "19",
       "label": "8,1",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -53,7 +55,8 @@ export default `[
     "data": {
       "id": "31",
       "label": "7,2",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -72,7 +75,8 @@ export default `[
     "data": {
       "id": "43",
       "label": "7,1,1",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -91,7 +95,8 @@ export default `[
     "data": {
       "id": "55",
       "label": "6,3",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -110,7 +115,8 @@ export default `[
     "data": {
       "id": "67",
       "label": "6,2,1",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -135,7 +141,8 @@ export default `[
     "data": {
       "id": "83",
       "label": "6,1,1,1",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -154,7 +161,8 @@ export default `[
     "data": {
       "id": "95",
       "label": "5,4",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -173,7 +181,8 @@ export default `[
     "data": {
       "id": "107",
       "label": "5,3,1",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -192,7 +201,8 @@ export default `[
     "data": {
       "id": "119",
       "label": "5,2,2",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -211,7 +221,8 @@ export default `[
     "data": {
       "id": "131",
       "label": "5,2,1,1",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -242,7 +253,8 @@ export default `[
     "data": {
       "id": "151",
       "label": "5,1,1,1,1",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -267,7 +279,8 @@ export default `[
     "data": {
       "id": "167",
       "label": "4,4,1",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -286,7 +299,8 @@ export default `[
     "data": {
       "id": "179",
       "label": "4,3,2",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -305,7 +319,8 @@ export default `[
     "data": {
       "id": "191",
       "label": "4,3,1,1",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -330,7 +345,8 @@ export default `[
     "data": {
       "id": "207",
       "label": "4,2,2,1",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -355,7 +371,8 @@ export default `[
     "data": {
       "id": "223",
       "label": "4,2,1,1,1",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -392,7 +409,8 @@ export default `[
     "data": {
       "id": "247",
       "label": "4,1,1,1,1,1",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -417,7 +435,8 @@ export default `[
     "data": {
       "id": "263",
       "label": "3,3,3",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -436,7 +455,8 @@ export default `[
     "data": {
       "id": "275",
       "label": "3,3,2,1",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -461,7 +481,8 @@ export default `[
     "data": {
       "id": "291",
       "label": "3,3,1,1,1",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -486,7 +507,8 @@ export default `[
     "data": {
       "id": "307",
       "label": "3,2,2,2",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -505,7 +527,8 @@ export default `[
     "data": {
       "id": "319",
       "label": "3,2,2,1,1",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -536,7 +559,8 @@ export default `[
     "data": {
       "id": "339",
       "label": "3,2,1,1,1,1",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -579,7 +603,8 @@ export default `[
     "data": {
       "id": "367",
       "label": "3,1,1,1,1,1,1",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -616,7 +641,8 @@ export default `[
     "data": {
       "id": "391",
       "label": "2,2,2,2,1",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -641,7 +667,8 @@ export default `[
     "data": {
       "id": "407",
       "label": "2,2,2,1,1,1",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -678,7 +705,8 @@ export default `[
     "data": {
       "id": "431",
       "label": "2,2,1,1,1,1,1",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -727,7 +755,8 @@ export default `[
     "data": {
       "id": "463",
       "label": "2,1,1,1,1,1,1,1",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -788,7 +817,8 @@ export default `[
     "data": {
       "id": "503",
       "label": "1,1,1,1,1,1,1,1,1",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {

@@ -45,7 +45,8 @@ export default `[
     "data": {
       "id": "abc",
       "label": "abc",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -76,7 +77,8 @@ export default `[
     "data": {
       "id": "acb",
       "label": "acb",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -119,7 +121,8 @@ export default `[
     "data": {
       "id": "bac",
       "label": "bac",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -150,7 +153,8 @@ export default `[
     "data": {
       "id": "bca",
       "label": "bca",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -193,7 +197,8 @@ export default `[
     "data": {
       "id": "cab",
       "label": "cab",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
@@ -224,7 +229,8 @@ export default `[
     "data": {
       "id": "cba",
       "label": "cba",
-      "bg": "powderblue"
+      "bg": "powderblue",
+      "textValign": "center"
     }
   },
   {
